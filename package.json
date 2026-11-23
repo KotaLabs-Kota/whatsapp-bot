@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-gemini-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready WhatsApp Business Cloud API webhook server that replies with Google Gemini (@google/genai, gemini-2.5-flash).",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-business",
+    "cloud-api",
+    "gemini",
+    "google-genai",
+    "webhook",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
